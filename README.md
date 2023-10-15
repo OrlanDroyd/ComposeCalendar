@@ -26,7 +26,7 @@
 Add the dependency below to your module's `build.gradle` file:
 ```gradle
 dependencies {
-    implementation 'com.github.orlandroyd:ComposeCalendar:1.0.0'
+    implementation 'com.github.OrlanDroyd:ComposeCalendar:1.0.0'
 }
 ```
 Add a repository in your `settings.gradle` file:
