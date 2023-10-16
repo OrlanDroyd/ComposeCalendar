@@ -43,16 +43,14 @@ dependencyResolutionManagement {
 There are only one required parameter: `visible`.
 
 ```kotlin
-val context = LocalContext.current
-
-var isVisibleDatePickerDialog by remember {
-	mutableStateOf(false)
+var isVisible by remember {
+	mutableStateOf(true)
 }
 
 DatePickerDialog(
-	visible = isVisibleDatePickerDialog,
-	onClose = { isVisibleDatePickerDialog = false },
-	onDateSelected = { isVisibleDatePickerDialog = false}
+	visible = isVisible,
+	onClose = { isVisible = false },
+	onDateSelected = { isVisible = false}
 )
 ```
 
