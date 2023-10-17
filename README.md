@@ -7,15 +7,48 @@
 ## Compose Calendar is a series of 4 UI elements that allow you to select:
 
 ### Specific date
+```kotlin
+var isVisible by remember { mutableStateOf(true) }
+DatePickerDialog(
+	visible = isVisible,
+	onClose = { isVisible = false },
+	onDateSelected = { isVisible = false}
+)
+```
 ![Image](./screenshot/screenshot-003.png)
 
 ### Date and time
+```kotlin
+var isVisible by remember { mutableStateOf(true) }
+DatePickerDialog(
+	visible = isVisible,
+ 	showSetHours = true,
+	onClose = { isVisible = false },
+	onDateSelected = { isVisible = false}
+)
+```
 ![Image](./screenshot/screenshot-004.png)
 
 ### Date range
+```kotlin
+var isVisible by remember { mutableStateOf(true) }
+DateRangePickerDialog(
+	visible = isVisible,
+	onClose = { isVisible = false },
+	onDatesSelected = { isVisible = false}
+)
+```
 ![Image](./screenshot/screenshot-005.png)
 
 ### Only the month and year
+```kotlin
+var isVisible by remember { mutableStateOf(true) }
+MonthYearPickerDialog(
+	visible = isVisible,
+	onClose = { isVisible = false },
+	onDateSelected = { isVisible = false}
+)
+```
 ![Image](./screenshot/screenshot-006.png)
 
 ## Download
@@ -43,10 +76,7 @@ dependencyResolutionManagement {
 There are only one required parameter: `visible`.
 
 ```kotlin
-var isVisible by remember {
-	mutableStateOf(true)
-}
-
+var isVisible by remember { mutableStateOf(true) }
 DatePickerDialog(
 	visible = isVisible,
 	onClose = { isVisible = false },
