@@ -16,6 +16,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "ComposeCalendar"
+rootProject.name = "ComposeCalendarExample"
 include(":app")
-include(":ComposeCalendar")
+include(":compose-calendar")

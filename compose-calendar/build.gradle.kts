@@ -48,29 +48,29 @@ dependencies {
     implementation("androidx.compose.material3:material3")
 }
 
-//afterEvaluate {
-//    publishing {
-//        publications {
-//            create<MavenPublication>("release") {
-//                from(components["release"])
-//                groupId = "com.github.OrlanDroyd"
-//                artifactId = "ComposeCalendar"
-//                version = "1.0.2"
-//            }
-//        }
-//    }
-//}
-
-publishing {
-    publications {
-        register<MavenPublication>("release") {
-            groupId = "com.github.OrlanDroyd"
-            artifactId = "ComposeCalendar"
-            version = "1.0.3"
-
-            afterEvaluate {
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("release") {
                 from(components["release"])
+                groupId = "com.github.OrlanDroyd"
+                artifactId = "compose-calendar"
+                version = "1.0.4"
             }
         }
     }
 }
+
+//publishing {
+//    publications {
+//        register<MavenPublication>("release") {
+//            groupId = "com.github.OrlanDroyd"
+//            artifactId = "ComposeCalendar"
+//            version = "1.0.3"
+//
+//            afterEvaluate {
+//                from(components["release"])
+//            }
+//        }
+//    }
+//}

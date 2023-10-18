@@ -1,7 +1,5 @@
 package com.gmail.orlandroyd.composecalendar
 
-import android.widget.Toast
-import androidx.activity.compose.BackHandler
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.animation.ExperimentalAnimationApi
 import androidx.compose.animation.fadeIn
@@ -9,8 +7,6 @@ import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInVertically
 import androidx.compose.animation.slideOutVertically
 import androidx.compose.foundation.background
-import androidx.compose.foundation.border
-import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
@@ -18,13 +14,11 @@ import androidx.compose.material3.Divider
 import androidx.compose.material3.Icon
 import androidx.compose.material3.Text
 import androidx.compose.runtime.*
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Alignment.Companion.Center
 import androidx.compose.ui.Alignment.Companion.CenterVertically
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.graphics.graphicsLayer
-import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
@@ -34,11 +28,8 @@ import androidx.compose.ui.unit.sp
 import com.gmail.orlandroyd.composecalendar.util.between
 import com.gmail.orlandroyd.composecalendar.util.getCalendar
 import com.gmail.orlandroyd.composecalendar.util.getCalendarMonthDays
-import com.gmail.orlandroyd.composecalendar.util.getFullMonthTextDate
 import com.gmail.orlandroyd.composecalendar.util.getMonthText
-import com.gmail.orlandroyd.composecalendar.util.getParsedDate
 import com.gmail.orlandroyd.composecalendar.util.sameDay
-import com.gmail.orlandroyd.composecalendar.util.showTimePickerDialog
 import java.util.*
 
 

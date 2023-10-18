@@ -39,7 +39,7 @@ import java.util.Calendar
 import java.util.Date
 
 @Composable
-fun DatePickerDialog(
+fun DatePickerDlg(
     visible: Boolean,
     title: String = "",
     showSetHours: Boolean = false,

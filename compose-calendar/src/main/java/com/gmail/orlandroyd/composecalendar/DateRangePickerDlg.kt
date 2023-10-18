@@ -34,7 +34,7 @@ import com.gmail.orlandroyd.composecalendar.util.sameDay
 import java.util.Date
 
 @Composable
-fun DateRangePickerDialog(
+fun DateRangePickerDlg(
     visible: Boolean,
     title: String = "",
     txtSelectHour: String = "Seleccionar hora",
