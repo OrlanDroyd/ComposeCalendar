@@ -6,7 +6,7 @@ plugins {
 
 android {
     namespace = "com.gmail.orlandroyd.composecalendar"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 21
@@ -48,14 +48,28 @@ dependencies {
     implementation("androidx.compose.material3:material3")
 }
 
-afterEvaluate {
-    publishing {
-        publications {
-            create<MavenPublication>("release") {
+//afterEvaluate {
+//    publishing {
+//        publications {
+//            create<MavenPublication>("release") {
+//                from(components["release"])
+//                groupId = "com.github.OrlanDroyd"
+//                artifactId = "ComposeCalendar"
+//                version = "1.0.2"
+//            }
+//        }
+//    }
+//}
+
+publishing {
+    publications {
+        register<MavenPublication>("release") {
+            groupId = "com.github.OrlanDroyd"
+            artifactId = "ComposeCalendar"
+            version = "1.0.3"
+
+            afterEvaluate {
                 from(components["release"])
-                groupId = "com.github.OrlanDroyd"
-                artifactId = "ComposeCalendar"
-                version = "1.0.2"
             }
         }
     }
