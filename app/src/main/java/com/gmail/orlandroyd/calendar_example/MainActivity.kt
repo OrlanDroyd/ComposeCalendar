@@ -1,6 +1,7 @@
 package com.gmail.orlandroyd.calendar_example
 
 import android.os.Bundle
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
@@ -21,11 +22,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.gmail.orlandroyd.calendar_example.ui.theme.ComposeCalendarTheme
-
-//import com.gmail.orlandroyd.composecalendar.DatePickerDlg
-//import com.gmail.orlandroyd.composecalendar.DateRangePickerDlg
-//import com.gmail.orlandroyd.composecalendar.MonthYearPickerDlg
-//import com.gmail.orlandroyd.composecalendar.util.getFullMonthTextDate
+import com.gmail.orlandroyd.composecalendar.DatePickerDlg
+import com.gmail.orlandroyd.composecalendar.DateRangePickerDlg
+import com.gmail.orlandroyd.composecalendar.MonthYearPickerDlg
+import com.gmail.orlandroyd.composecalendar.util.getFullMonthTextDate
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -78,13 +78,13 @@ class MainActivity : ComponentActivity() {
                         }
                     }
 
-                    /*
                     DatePickerDlg(
                         visible = isVisibleDatePickerDialog,
                         onClose = { isVisibleDatePickerDialog = false },
                         onDateSelected = {
                             isVisibleDatePickerDialog = false
-                            Toast.makeText(context, it.getFullMonthTextDate(), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(context, it.getFullMonthTextDate(), Toast.LENGTH_SHORT)
+                                .show()
                         }
                     )
 
@@ -94,7 +94,8 @@ class MainActivity : ComponentActivity() {
                         showSetHours = true,
                         onDateSelected = {
                             isVisibleDatePickerDialogHours = false
-                            Toast.makeText(context, it.getFullMonthTextDate(), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(context, it.getFullMonthTextDate(), Toast.LENGTH_SHORT)
+                                .show()
                         }
                     )
 
@@ -116,10 +117,11 @@ class MainActivity : ComponentActivity() {
                         onClose = { isVisibleMonthYearPickerDialog = false },
                         onDateSelected = {
                             isVisibleMonthYearPickerDialog = false
-                            Toast.makeText(context, it.getFullMonthTextDate(), Toast.LENGTH_SHORT).show()
+                            Toast.makeText(context, it.getFullMonthTextDate(), Toast.LENGTH_SHORT)
+                                .show()
                         }
                     )
-                    */
+
                 }
             }
         }
