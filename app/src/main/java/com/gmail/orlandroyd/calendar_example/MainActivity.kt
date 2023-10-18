@@ -73,8 +73,9 @@ class MainActivity : ComponentActivity() {
                         }
                     }
 
+
                     /*
-                    DatePickerDialog(
+                    DatePickerDlg(
                         visible = isVisibleDatePickerDialog,
                         onClose = { isVisibleDatePickerDialog = false },
                         onDateSelected = {
@@ -83,7 +84,7 @@ class MainActivity : ComponentActivity() {
                         }
                     )
 
-                    DatePickerDialog(
+                    DatePickerDlg(
                         visible = isVisibleDatePickerDialogHours,
                         onClose = { isVisibleDatePickerDialogHours = false },
                         showSetHours = true,
@@ -93,7 +94,7 @@ class MainActivity : ComponentActivity() {
                         }
                     )
 
-                    DateRangePickerDialog(
+                    DateRangePickerDlg(
                         visible = isVisibleDateRangePickerDialog,
                         onClose = { isVisibleDateRangePickerDialog = false },
                         onDatesSelected = {
@@ -106,7 +107,7 @@ class MainActivity : ComponentActivity() {
                         }
                     )
 
-                    MonthYearPickerDialog(
+                    MonthYearPickerDlg(
                         visible = isVisibleMonthYearPickerDialog,
                         onClose = { isVisibleMonthYearPickerDialog = false },
                         onDateSelected = {

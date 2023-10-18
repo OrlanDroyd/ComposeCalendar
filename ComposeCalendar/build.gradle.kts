@@ -54,8 +54,8 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
                 groupId = "com.github.OrlanDroyd"
-                artifactId = "compose-calendar"
-                version = "1.0.4"
+                artifactId = "ComposeCalendar"
+                version = "1.0.5"
             }
         }
     }

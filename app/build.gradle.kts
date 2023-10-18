@@ -68,6 +68,6 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 
     // Compose Calendar dependency
-    implementation(project(":compose-calendar"))
-    // implementation("com.github.OrlanDroyd:ComposeCalendar:1.0.4")
+     implementation(project(":ComposeCalendar"))
+//     implementation("com.github.OrlanDroyd:ComposeCalendar:1.0.4")
 }
