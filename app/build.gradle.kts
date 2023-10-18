@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.gmail.orlandroyd.composecalendar"
+    namespace = "com.gmail.orlandroyd.calendar_example"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.gmail.orlandroyd.composecalendar"
+        applicationId = "com.gmail.orlandroyd.calendar_example"
         minSdk = 21
         targetSdk = 34
         versionCode = 1
@@ -66,4 +66,7 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+
+    // Compose Calendar dependency
+    // implementation("com.github.OrlanDroyd:ComposeCalendar:1.0.0")
 }

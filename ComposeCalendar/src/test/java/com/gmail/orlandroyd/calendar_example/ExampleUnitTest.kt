@@ -1,4 +1,4 @@
-package com.gmail.orlandroyd.composecalendar
+package com.gmail.orlandroyd.calendar_example
 
 import org.junit.Test
 

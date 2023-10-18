@@ -1,4 +1,4 @@
-package com.gmail.orlandroyd.composecalendar.ui.theme
+package com.gmail.orlandroyd.calendar_example.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

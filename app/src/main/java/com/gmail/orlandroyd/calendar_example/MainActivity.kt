@@ -1,7 +1,6 @@
-package com.gmail.orlandroyd.composecalendar
+package com.gmail.orlandroyd.calendar_example
 
 import android.os.Bundle
-import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.Arrangement
@@ -21,8 +20,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import com.gmail.orlandroyd.composecalendar.ui.theme.ComposeCalendarTheme
-import com.gmail.orlandroyd.composecalendar.util.getFullMonthTextDate
+import com.gmail.orlandroyd.calendar_example.ui.theme.ComposeCalendarTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -75,6 +73,7 @@ class MainActivity : ComponentActivity() {
                         }
                     }
 
+                    /*
                     DatePickerDialog(
                         visible = isVisibleDatePickerDialog,
                         onClose = { isVisibleDatePickerDialog = false },
@@ -115,6 +114,7 @@ class MainActivity : ComponentActivity() {
                             Toast.makeText(context, it.getFullMonthTextDate(), Toast.LENGTH_SHORT).show()
                         }
                     )
+                    */
 
                 }
             }
