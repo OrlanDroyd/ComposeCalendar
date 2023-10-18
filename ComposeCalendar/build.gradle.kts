@@ -55,22 +55,8 @@ afterEvaluate {
                 from(components["release"])
                 groupId = "com.github.OrlanDroyd"
                 artifactId = "ComposeCalendar"
-                version = "1.0.6"
+                version = "1.1.0"
             }
         }
     }
 }
-
-//publishing {
-//    publications {
-//        register<MavenPublication>("release") {
-//            groupId = "com.github.OrlanDroyd"
-//            artifactId = "ComposeCalendar"
-//            version = "1.0.3"
-//
-//            afterEvaluate {
-//                from(components["release"])
-//            }
-//        }
-//    }
-//}

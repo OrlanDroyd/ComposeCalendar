@@ -7,7 +7,7 @@ import java.util.Date
 import java.util.Locale
 
 @Composable
-fun MonthYearPickerDialog(
+fun MonthYearPickerDlg(
     visible: Boolean,
     textTile: String = "Fecha de caducidad",
     dialogColor: Color = Color(0xB1000000),

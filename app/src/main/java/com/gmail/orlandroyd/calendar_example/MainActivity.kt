@@ -22,6 +22,11 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import com.gmail.orlandroyd.calendar_example.ui.theme.ComposeCalendarTheme
 
+//import com.gmail.orlandroyd.composecalendar.DatePickerDlg
+//import com.gmail.orlandroyd.composecalendar.DateRangePickerDlg
+//import com.gmail.orlandroyd.composecalendar.MonthYearPickerDlg
+//import com.gmail.orlandroyd.composecalendar.util.getFullMonthTextDate
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -73,7 +78,6 @@ class MainActivity : ComponentActivity() {
                         }
                     }
 
-
                     /*
                     DatePickerDlg(
                         visible = isVisibleDatePickerDialog,
@@ -116,7 +120,6 @@ class MainActivity : ComponentActivity() {
                         }
                     )
                     */
-
                 }
             }
         }
