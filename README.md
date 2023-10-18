@@ -9,7 +9,7 @@
 ### Specific date
 ```kotlin
 var isVisible by remember { mutableStateOf(true) }
-DatePickerDialog(
+DatePickerDlg(
 	visible = isVisible,
 	onClose = { isVisible = false },
 	onDateSelected = { isVisible = false}
@@ -20,7 +20,7 @@ DatePickerDialog(
 ### Date and time
 ```kotlin
 var isVisible by remember { mutableStateOf(true) }
-DatePickerDialog(
+DatePickerDlg(
 	visible = isVisible,
  	showSetHours = true,
 	onClose = { isVisible = false },
@@ -32,7 +32,7 @@ DatePickerDialog(
 ### Date range
 ```kotlin
 var isVisible by remember { mutableStateOf(true) }
-DateRangePickerDialog(
+DateRangePickerDlg(
 	visible = isVisible,
 	onClose = { isVisible = false },
 	onDatesSelected = { isVisible = false}
@@ -43,7 +43,7 @@ DateRangePickerDialog(
 ### Only the month and year
 ```kotlin
 var isVisible by remember { mutableStateOf(true) }
-MonthYearPickerDialog(
+MonthYearPickerDlg(
 	visible = isVisible,
 	onClose = { isVisible = false },
 	onDateSelected = { isVisible = false}
@@ -77,7 +77,7 @@ There are only one required parameter: `visible`.
 
 ```kotlin
 var isVisible by remember { mutableStateOf(true) }
-DatePickerDialog(
+DatePickerDlg(
 	visible = isVisible,
 	onClose = { isVisible = false },
 	onDateSelected = { isVisible = false}
