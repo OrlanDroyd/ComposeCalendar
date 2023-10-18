@@ -1,7 +1,7 @@
 <h1 align="center">Compose Calendar</h1></br>
 
 <p align="center">
-  <a href="https://jitpack.io/#orlandroyd/ComposeCalendar/1.0.0"><img alt="License" src="https://badgen.net/badge/Jitpack/1.0.0/orange?icon=github"/></a>
+  <a href="https://jitpack.io/#orlandroyd/ComposeCalendar/1.1.0"><img alt="License" src="https://badgen.net/badge/Jitpack/1.1.0/orange?icon=github"/></a>
   
 
 ## Compose Calendar is a series of 4 UI elements that allow you to select:
@@ -52,14 +52,14 @@ MonthYearPickerDlg(
 ![Image](./screenshot/screenshot-006.png)
 
 ## Download
-<a href="https://jitpack.io/#orlandroyd/ComposeCalendar/1.0.0"><img alt="License" src="https://badgen.net/badge/Jitpack/1.0.0/orange?icon=github"/></a>
+<a href="https://jitpack.io/#orlandroyd/ComposeCalendar/1.1.0"><img alt="License" src="https://badgen.net/badge/Jitpack/1.1.0/orange?icon=github"/></a>
 
 ### Gradle
 
 Add the dependency below to your module's `build.gradle` file:
 ```gradle
 dependencies {
-    implementation 'com.github.OrlanDroyd:ComposeCalendar:1.0.0'
+    implementation 'com.github.OrlanDroyd:ComposeCalendar:1.1.0'
 }
 ```
 Add a repository in your `settings.gradle` file:
