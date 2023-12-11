@@ -15,7 +15,7 @@ DatePickerDlg(
 	onDateSelected = { isVisible = false}
 )
 ```
-![Image](./screenshot/screenshot-003.png)
+<img src="https://i.postimg.cc/wMMR9rS8/screenshot-003.png" alt="image" width="50%" height="auto"></img>
 
 ### Date and time
 ```kotlin
@@ -27,7 +27,7 @@ DatePickerDlg(
 	onDateSelected = { isVisible = false}
 )
 ```
-![Image](./screenshot/screenshot-004.png)
+<img src="https://i.postimg.cc/5NHQGZB8/screenshot-004.png" alt="image" width="50%" height="auto"></img>
 
 ### Date range
 ```kotlin
@@ -38,7 +38,7 @@ DateRangePickerDlg(
 	onDatesSelected = { isVisible = false}
 )
 ```
-![Image](./screenshot/screenshot-005.png)
+<img src="https://i.postimg.cc/13wnRwYt/screenshot-005.png" alt="image" width="50%" height="auto"></img>
 
 ### Only the month and year
 ```kotlin
@@ -49,7 +49,7 @@ MonthYearPickerDlg(
 	onDateSelected = { isVisible = false}
 )
 ```
-![Image](./screenshot/screenshot-006.png)
+<img src="https://i.postimg.cc/bN3gqXWr/screenshot-006.png" alt="image" width="50%" height="auto"></img>
 
 ## Download
 <a href="https://jitpack.io/#orlandroyd/ComposeCalendar/1.1.0"><img alt="License" src="https://badgen.net/badge/Jitpack/1.1.0/orange?icon=github"/></a>
