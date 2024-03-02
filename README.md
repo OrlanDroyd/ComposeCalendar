@@ -88,7 +88,8 @@ You can also modify other parameters, such as colors, shading and surface
 
 ## Like what you see? :yellow_heart:
 ⭐ Give a star to this repository. <br />
-☕ Buy me a coffee: https://ko-fi.com/orlandroyd
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C3Q54JR)
 
 # License
 ```xml
